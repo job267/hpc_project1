@@ -1,0 +1,90 @@
+# Python 字节码与工具缓存
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+.ipynb_checkpoints/
+
+# 本地虚拟环境与环境变量
+.hpc/
+.venv/
+venv/
+env/
+ENV/
+.env
+.env.*
+!.env.example
+
+# Python 构建与打包产物
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# C/C++/CUDA 与 CMake 编译产物
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+*.o
+*.obj
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+*.ptx
+*.cubin
+*.fatbin
+
+# 模型权重、检查点与训练输出
+models/
+checkpoints/
+outputs/
+runs/
+wandb/
+lightning_logs/
+events.out.tfevents.*
+*.safetensors
+*.ckpt
+*.pt
+*.pth
+*.onnx
+*.gguf
+pytorch_model*.bin
+
+# HPC 作业调度与性能分析产物
+slurm-*.out
+slurm-*.err
+pbs-*.out
+pbs-*.err
+*.nsys-rep
+*.qdrep
+*.nvvp
+*.prof
+core
+core.*
+
+# 日志与临时文件
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+
+# IDE 与操作系统文件
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

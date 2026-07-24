@@ -1,0 +1,2 @@
+timestamp,model,gpu,pytorch,pytorch_cuda,dtype,attention,batch_size,prompt_tokens,new_tokens,warmup_runs,test_runs,average_latency_ms,median_latency_ms,p95_latency_ms,average_tokens_per_second,median_tokens_per_second,model_memory_gib,peak_memory_gib
+2026-07-24T20:59:15,Qwen/Qwen3-0.6B,NVIDIA GeForce RTX 4060 Laptop GPU,2.11.0+cu126,12.6,torch.float16,eager,1,128,64,5,20,1808.6069906488774,1804.6157549979398,1862.5640399986878,35.41796859814343,35.46530334232266,1.118180274963379,1.1430678367614746
